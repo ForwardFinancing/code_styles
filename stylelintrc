@@ -1,5 +1,4 @@
 {
-  "extends": "stylelint-config-makotot",
   "rules": {
     "string-quotes": [2, "single"],
     "color-hex-case": [2, "lower"],
