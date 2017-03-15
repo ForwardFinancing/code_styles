@@ -1,6 +1,7 @@
 
 AllCops:
   DisabledByDefault: true
+  TargetRubyVersion: 2.4
 
 #################### Lint ################################
 
@@ -20,7 +21,7 @@ Lint/AmbiguousRegexpLiteral:
 Lint/AssignmentInCondition:
   Description: "Don't use assignment in conditions."
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition'
-  Enabled: true
+  Enabled: false
 
 Lint/BlockAlignment:
   Description: 'Align block ends correctly.'
@@ -72,6 +73,8 @@ Lint/EmptyInterpolation:
 Lint/EndAlignment:
   Description: 'Align ends correctly.'
   Enabled: true
+  EnforcedStyleAlignWith: start_of_line
+  AlignWith: variable
 
 Lint/EndInMethod:
   Description: 'END blocks should not be placed inside method definitions.'
@@ -892,7 +895,7 @@ Style/RedundantReturn:
 Style/RedundantSelf:
   Description: "Don't use self where it's not needed."
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-self-unless-required'
-  Enabled: true
+  Enabled: false
 
 Style/RegexpLiteral:
   Description: 'Use / or %r around regular expressions.'
