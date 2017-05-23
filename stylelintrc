@@ -1,7 +1,5 @@
 {
   "rules": {
-    "color-hex-case": "upper",
-    "color-hex-length": "long",
     "font-family-name-quotes": "always-where-recommended",
     "font-family-no-duplicate-names": "true",
     "font-weight-notation": "numeric"
