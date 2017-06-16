@@ -407,7 +407,7 @@ Style/AlignParameters:
 Style/AndOr:
   Description: 'Use &&/|| instead of and/or.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-and-or-or'
-  Enabled: true
+  Enabled: false
 
 Style/ArrayJoin:
   Description: 'Use Array#join instead of Array#*.'
