@@ -48,7 +48,8 @@
         # For some checks, like AliasUsage, you can only customize the priority
         # Priority values are: `low, normal, high, higher`
         {Credo.Check.Design.AliasUsage, false},
-        # Removed due to discussion about module name collisions (ie DateTime, Ecto.DateTime)
+        # Removed due to discussion about module name collisions 
+        #   (ie DateTime, Ecto.DateTime)
 
         # For others you can set parameters
 
