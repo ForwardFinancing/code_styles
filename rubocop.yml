@@ -2,6 +2,9 @@
 AllCops:
   DisabledByDefault: true
   TargetRubyVersion: 2.4
+  Exclude:
+    - specs/**/*.spec
+    - specs/**/*.cpt
 
 #################### Lint ################################
 
@@ -237,6 +240,8 @@ Metrics/LineLength:
   Description: 'Limit lines to 80 characters.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#80-character-limits'
   Enabled: true
+  Exclude:
+    - step_implementations/*_spec.rb
 
 Metrics/MethodLength:
   Description: 'Avoid methods longer than 30 lines of code.'
