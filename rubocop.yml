@@ -3,8 +3,10 @@ AllCops:
   DisabledByDefault: true
   TargetRubyVersion: 2.4
   Exclude:
-    - specs/**/*.spec
-    - specs/**/*.cpt
+    - 'node_modules/**/*'
+    - 'vendor/**/*'
+    - 'specs/**/*.spec'
+    - 'specs/**/*.cpt'
 
 #################### Lint ################################
 
