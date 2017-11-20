@@ -714,7 +714,7 @@ Style/Lambda:
 Style/LambdaCall:
   Description: 'Use lambda.call(...) instead of lambda.(...).'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#proc-call'
-  Enabled: true
+  Enabled: false
 
 Style/LeadingCommentSpace:
   Description: 'Comments should start with a space.'
