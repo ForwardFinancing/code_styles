@@ -96,8 +96,8 @@ linters:
     width: 2
 
   LeadingZero:
-    enabled: true
-    style: exclude_zero # or 'include_zero'
+    enabled: false
+    style: include_zero # or 'exclude_zero'
 
   MergeableSelector:
     enabled: true
@@ -128,7 +128,7 @@ linters:
   PropertySortOrder:
     enabled: true
     ignore_unspecified: false
-    min_properties: 2
+    min_properties: 5
     separate_groups: false
 
   PropertySpelling:
