@@ -37,3 +37,10 @@
   3. a summary of both those checks will be present near the merge button when viewing the PR
 * Both checks should pass before posting the PR for review
 * Unless you are looking for help with the issues identified by the checks
+
+## Specifics by Language
+
+### Check out each language doc
+* [ruby](https://github.com/ForwardFinancing/code_styles/blob/master/RUBY.md)
+* [scss](https://github.com/ForwardFinancing/code_styles/blob/master/SCSS.md)
+* TODO: add documents for javascript, and elixir 
