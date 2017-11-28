@@ -44,4 +44,4 @@
 * [ruby](https://github.com/ForwardFinancing/code_styles/blob/master/RUBY.md)
 * [scss](https://github.com/ForwardFinancing/code_styles/blob/master/SCSS.md)
 * [javascript](https://github.com/ForwardFinancing/code_styles/blob/master/JAVASCRIPT.md)
-* TODO: add documents for elixir
+* [elixir](https://github.com/ForwardFinancing/code_styles/blob/master/ELIXIR.md)
