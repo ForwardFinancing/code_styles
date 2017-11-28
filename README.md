@@ -43,4 +43,5 @@
 ### Check out each language doc
 * [ruby](https://github.com/ForwardFinancing/code_styles/blob/master/RUBY.md)
 * [scss](https://github.com/ForwardFinancing/code_styles/blob/master/SCSS.md)
-* TODO: add documents for javascript, and elixir 
+* [javascript](https://github.com/ForwardFinancing/code_styles/blob/master/JAVASCRIPT.md)
+* TODO: add documents for elixir
