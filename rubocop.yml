@@ -1,7 +1,7 @@
 
 AllCops:
   DisabledByDefault: true
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 2.4
   Exclude:
     - 'node_modules/**/*'
     - 'vendor/**/*'
