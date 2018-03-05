@@ -22,6 +22,7 @@ it at [this commit](6e4c2cf7eb7319b4d8f203d9c3839d839c46313://github.com/airbnb/
   1. [Conditional Expressions](#conditional-expressions)
     1. [Conditional keywords](#conditional-keywords)
     1. [Ternary operator](#ternary-operator)
+    1. [Safe Assignment in condition](#safe-assignment-in-condition)
   1. [Syntax](#syntax)
   1. [Naming](#naming)
   1. [Classes](#classes)
@@ -815,6 +816,33 @@ In either case:
       something
     else
       something_else
+    end
+    ```
+    
+### Safe assignment in condition
+
+* <a name="safe-assignment-in-condition"></a>Don't use the return value of an assignment (`=`)
+    unless the assignment is wrapped in parentheses.
+    <sup>[[link](#safe-assignment-in-condition)]</sup>
+
+    ```ruby
+    # bad (+ a warning)
+    if v = array.grep(/foo/)
+      do_something(v)
+      # some code
+    end
+    
+    # good (MRI would still complain, but RuboCop won't)
+    if (v = array.grep(/foo/))
+      do_something(v)
+      # some code
+    end
+    
+    # good
+    v = array.grep(/foo/)
+    if v
+      do_something(v)
+      # some code
     end
     ```
 

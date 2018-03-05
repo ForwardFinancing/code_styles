@@ -6,6 +6,7 @@
 
 * [constructor-super](#constructor-super)
 * [jsx-quotes](#jsx-quotes)
+* [jsx-one-expression-per-line](#jsx-one-expression-per-line)
 * [max-statements](#max-statements)
 * [no-case-declarations](#no-case-declarations)
 * [no-class-assign](#no-class-assign)
@@ -276,6 +277,10 @@
   * enforce the consistent use of double quotes in JSX attributes
   [read more](https://eslint.org/docs/rules/jsx-quotes)
 
+## jsx-one-expression-per-line
+  * limits every line in JSX to one expression each.
+  [read more](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md)
+  
 ## max-statements
   * enforce a maximum number of statements allowed in function blocks
   [read more](https://eslint.org/docs/rules/max-statements)
