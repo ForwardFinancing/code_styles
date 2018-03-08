@@ -48,7 +48,6 @@
     "react/jsx-no-duplicate-props": 1,
     "react/jsx-no-literals": 0,
     "react/jsx-no-undef": 1,
-    "react/jsx-one-expression-per-line": 1,
     "react/jsx-pascal-case": 1,
     "react/jsx-sort-prop-types": 0,
     "react/jsx-sort-props": 0,
