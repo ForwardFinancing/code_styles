@@ -301,6 +301,10 @@
   * prevent duplicate properties in JSX
   [read more](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md)
 
+## react/
+  * requires to accompany target='_blank' attributes with rel='noreferrer noopener' for security
+  [read more](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md)
+
 ## react/jsx-no-undef
   * disallows undeclared variables in JSX
   [read more](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md)
