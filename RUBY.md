@@ -302,7 +302,9 @@ it at [this commit](6e4c2cf7eb7319b4d8f203d9c3839d839c46313://github.com/airbnb/
 ## Line Length
 
 * Keep each line of code to a readable length. Unless
-  you have a reason to, keep lines to fewer than 80 characters.
+  you have a reason to, keep lines to fewer than 120 (not 80) characters
+  to bias in favor of (longer) descriptive names with fewer abbreviations
+  that can make an 80 character limit too restrictive
   <sup>[[link](#line-length)]</sup>
   <sup>[[rubocop](://github.com/ForwardFinancing/code_styles/blob/master/rubocop.yml#L234-L237)]</sup>
 

@@ -239,9 +239,10 @@ Metrics/CyclomaticComplexity:
   Enabled: true
 
 Metrics/LineLength:
-  Description: 'Limit lines to 80 characters.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#80-character-limits'
+  Description: 'Limit lines to 120 characters.'
+  StyleGuide: 'https://github.com/ForwardFinancing/code_styles/blob/master/RUBY.md#line-length'
   Enabled: true
+  Max: 120
   Exclude:
     - step_implementations/*_spec.rb
 
