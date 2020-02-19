@@ -109,9 +109,7 @@ linters:
     convention: hyphenated_lowercase # or 'camel_case', or 'snake_case', or a regex pattern
 
   NestingDepth:
-    enabled: true
-    max_depth: 3
-    ignore_parent_selectors: false
+    enabled: false
 
   PlaceholderInExtend:
     enabled: true
@@ -160,8 +158,7 @@ linters:
     allow_element_with_id: false
 
   SelectorDepth:
-    enabled: true
-    max_depth: 3
+    enabled: false
 
   SelectorFormat:
     enabled: true
@@ -234,7 +231,7 @@ linters:
     enabled: true
 
   UnnecessaryParentReference:
-    enabled: true
+    enabled: false
 
   UrlFormat:
     enabled: true
