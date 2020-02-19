@@ -146,6 +146,7 @@ linters:
       'ms', 's',                               # Duration
       'Hz', 'kHz',                             # Frequency
       'dpi', 'dpcm', 'dppx',                   # Resolution
+      'fr',                                    # Grid
       '%']                                     # Other
     properties: {}
 
