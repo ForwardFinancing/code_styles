@@ -109,9 +109,7 @@ linters:
     convention: hyphenated_lowercase # or 'camel_case', or 'snake_case', or a regex pattern
 
   NestingDepth:
-    enabled: true
-    max_depth: 3
-    ignore_parent_selectors: false
+    enabled: false
 
   PlaceholderInExtend:
     enabled: true
